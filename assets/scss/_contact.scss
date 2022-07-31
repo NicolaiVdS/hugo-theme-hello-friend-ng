@@ -80,6 +80,16 @@
       color: $light-color;
     }
 
+    [data-theme=dark] & {
+      background: $dark-background;
+      color: $dark-color;
+    }
+
+    [data-theme=light] & {
+      background: $light-background;
+      color: $light-color;
+    }
+
     &:focus {
       outline: none;
     }
