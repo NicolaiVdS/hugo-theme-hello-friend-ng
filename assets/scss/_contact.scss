@@ -90,6 +90,11 @@
         transform: translateY(-24px);
       }
     }
+    &:not(:placeholder-shown) {
+      + .label {
+        transform: translateY(-24px);
+      }
+    }
   }
   .label {
     position: absolute;
