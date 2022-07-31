@@ -15,15 +15,6 @@
   text-align: center;
 }
 
-
-// Basics
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-  position: relative;
-}
 // Grid
 .row {
   @include clearfix;
@@ -79,6 +70,13 @@ body {
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
+    @media (prefers-color-scheme: dark) {
+      background: $dark-background-secondary;
+    }
+
+    @media (prefers-color-scheme: light) {
+      background: $light-background-secondary;
+    }
 
     &:focus {
       outline: none;
