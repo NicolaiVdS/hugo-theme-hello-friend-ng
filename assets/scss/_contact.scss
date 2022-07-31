@@ -71,11 +71,13 @@
     line-height: 26px;
     font-weight: 400;
     @media (prefers-color-scheme: dark) {
-      background: $dark-background-secondary;
+      background: $dark-background;
+      color: $dark-color;
     }
 
     @media (prefers-color-scheme: light) {
-      background: $light-background-secondary;
+      background: $light-background;
+      color: $light-color;
     }
 
     &:focus {
